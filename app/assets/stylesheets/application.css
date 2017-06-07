@@ -32,7 +32,19 @@
 
 
 h1 {
- 	color: black;
+ 	color: deeppink;
+  text-shadow: 1px 1px lightgray;
+ }
+
+.y {
+  color: deeppink;
+  text-shadow: 1px 1px lightgray;
+ }
+
+
+ input[type=label] {
+  color: deeppink;
+  text-shadow: 1px 1px lightgray;
  }
 
 #formtable {
@@ -83,10 +95,6 @@ h1 {
  	background-color: lightgray;
  	font-weight: bolder;
  	font-size: 14px;
- }
-
- #newa {
-  color: deeppink !important;
  }
 
  @keyframes shauna {
