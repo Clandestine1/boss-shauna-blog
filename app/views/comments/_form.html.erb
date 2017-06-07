@@ -1,11 +1,11 @@
 <div class="comments">
 
 <%= form_for([@article, @article.comments.build]) do |f| %>
-  <p>
+  <p style="font-size: 34px;">
     <%= f.label :commenter %><br>
     <%= f.text_field :commenter %>
   </p>
-  <p>
+  <p style="font-size: 34px;">
     <%= f.label :body %><br>
     <%= f.text_area :body %>
   </p>
