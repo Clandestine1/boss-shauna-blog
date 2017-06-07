@@ -9,10 +9,10 @@
   <%= @article.text %>
 </p>
  
-<h2 style="color: pink !important; font-size: 14px;">Comments</h2>
+<hr>
 <%= render @article.comments %>
  
-<h2 style="color: pink !important; font-size: 14px;">Add Comment:</h2>
+<hr>
 <%= render 'comments/form' %>
  
 <button><%= link_to 'Edit', edit_article_path(@article) %></button>
