@@ -85,6 +85,10 @@ h1 {
  	font-size: 14px;
  }
 
+ #newa {
+  color: deeppink !important;
+ }
+
  @keyframes shauna {
   0%{
     transform: scale(1);
